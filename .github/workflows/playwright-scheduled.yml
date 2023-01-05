@@ -52,7 +52,7 @@ jobs:
       id: download
     - name: Publish to external repo
       if: always()
-      uses: peaceiris/actions-gh-pages@v3.9.0
+      uses: peaceiris/actions-gh-pages@v3.9.1
       with:
         external_repository: mspnp/intern-js-pipeline
         publish_branch: gh-pages
